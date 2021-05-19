@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
   attr_reader :name, :roster
   
@@ -8,6 +10,7 @@ class School
   
   def add_student(name, grade)
     roster[grade] = [name]
+    binding.pry
     #roster[grade].each do |grade, name|
       #roster[grade] << name
     #end
