@@ -1,7 +1,7 @@
 class School
   attr_reader :name
   
-  roster=[]learn --fail-fast
+  roster=[]
   def initialize(name)
     @name=name
   end
